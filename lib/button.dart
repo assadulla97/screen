@@ -11,31 +11,30 @@ class _EleButtonState extends State<EleButton> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.black26,
-
-      ),
+      appBar: AppBar(backgroundColor: Colors.black26),
       body: Center(
         child: Column(
-mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            ElevatedButton(onPressed: (){
-              print("i hate you");
-
-            },
-              onLongPress: (){
-              print(" i love you");
+            ElevatedButton(
+              onPressed: () {
+                print("i hate you");
               },
-              child: Text("HELLOW",style: TextStyle(fontSize: 40,fontWeight: FontWeight.bold,color:Colors.blue ),),)
-
-
-
-
+              onLongPress: () {
+                print("i love you");
+              },
+              child: Text(
+                "HELLOW",
+                style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.blue,
+                ),
+              ),
+            ),
           ],
         ),
       ),
     );
   }
 }
-
-
