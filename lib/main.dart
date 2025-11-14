@@ -3,7 +3,7 @@
 
 
 import 'package:class6/button.dart';
-import 'package:class6/testApp.dart';
+import 'package:class6/fruist.dart';
 
 import 'package:flutter/material.dart';
 
@@ -24,7 +24,7 @@ class _MyappState extends State<Myapp> {
     return MaterialApp(
 
       debugShowCheckedModeBanner: false,
-      home: TestApp(),
+      home: FruitsScercn(),
     );
   }
 }
