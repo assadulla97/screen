@@ -1,13 +1,10 @@
 
+import 'package:class6/counter.dart';
 
-
-
-import 'package:class6/button.dart';
-import 'package:class6/fruist.dart';
 
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(Myapp());
 }
 
@@ -21,11 +18,7 @@ class Myapp extends StatefulWidget {
 class _MyappState extends State<Myapp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
 
-      debugShowCheckedModeBanner: false,
-      home: FruitsScercn(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: CountS());
   }
 }
-
